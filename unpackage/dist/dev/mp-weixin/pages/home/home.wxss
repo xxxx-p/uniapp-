@@ -1,0 +1,146 @@
+
+.swiper {
+	height: 360rpx;
+}
+.swiper-image {
+	width: 100%;
+}
+
+
+.recommend {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 40rpx;
+	padding-bottom: 40rpx;
+	border-bottom: 16rpx solid #eee;
+	height: 220rpx;
+}
+.recommend-item {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: center;
+}
+.recommend-item image {
+	width: 160rpx;
+	height: 160rpx;
+}
+.recommend-item text {
+	font-size: 28rpx;
+}
+
+
+.feature image {
+	width: 100%;
+	height: 480rpx;
+}
+
+
+.tab-control {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 16rpx;
+}
+.tab-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 32rpx;
+}
+.active {
+  color: #ff5777;
+}
+.tab-item.active text {
+  padding: 16rpx 10rpx;
+  border-bottom: 6rpx solid #ff5777;
+}
+
+
+
+.goods {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	padding: 8rpx;
+}
+.goods-item {
+	/* width: 200rpx; */
+	position: relative;
+	width: 48%;
+	margin-top: 20rpx;
+	text-align: center;
+	color: #333;
+	padding-bottom: 85rpx;
+}
+.image {
+	width: 100%;
+	border-radius: 10rpx;
+}
+.desc-info {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 5rpx;
+}
+.title {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 28rpx;
+}
+.info {
+	font-size: 26rpx;
+}
+.info .price {
+	color: #ff5777;
+	/* padding-right: 10rpx; */
+}
+.info .icon {
+	width: 30rpx;
+	height: 30rpx;
+	padding: 0 6rpx 0 10rpx;
+	position: relative;
+	top: 4rpx;
+}
+.cfav {
+	/* padding-left: 10rpx; */
+	position: relative;
+}
+
+
+.back-top {
+  position: fixed;
+  right: 16rpx;
+  bottom: 10rpx;
+}
+.back-top image {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+
+
+.home {
+	height: 100%;
+}
+.content {
+	height: 100%;
+}
+.tab-control-temp {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 9;
+	background: #fff;
+}
+

@@ -1,0 +1,1 @@
+<view class="cate"><uni-cate vue-id="9d275500-1" categories="{{categories}}" data-event-opts="{{[['^selectCat',[['selectCat']]]]}}" bind:selectCat="__e" bind:__l="__l"></uni-cate><uni-sub vue-id="9d275500-2" subcategories="{{subcategories}}" categoryDetail="{{categoryDetail}}" bind:__l="__l"></uni-sub></view>

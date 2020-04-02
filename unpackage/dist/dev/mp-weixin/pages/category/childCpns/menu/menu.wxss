@@ -1,0 +1,10 @@
+
+.van-sidebar-con {
+	overflow: auto;
+	width: 25vw;
+	height: 100vh;
+}
+.van-sidebar-item {
+	text-align: center;
+}
+

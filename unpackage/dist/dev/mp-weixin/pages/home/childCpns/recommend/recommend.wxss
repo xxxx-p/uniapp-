@@ -1,0 +1,24 @@
+
+.recommend {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 40rpx;
+	padding-bottom: 40rpx;
+	border-bottom: 16rpx solid #eee;
+	height: 220rpx;
+}
+.recommend-item {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: center;
+}
+.recommend-item image {
+	width: 160rpx;
+	height: 160rpx;
+}
+.recommend-item text {
+	font-size: 28rpx;
+}
+

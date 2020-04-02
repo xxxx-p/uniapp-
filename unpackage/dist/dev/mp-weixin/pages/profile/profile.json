@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-header": "/pages/profile/childCpns/header/header",
+    "uni-info": "/pages/profile/childCpns/info/info",
+    "uni-list-view": "/pages/profile/childCpns/list-view/list-view"
+  }
+}

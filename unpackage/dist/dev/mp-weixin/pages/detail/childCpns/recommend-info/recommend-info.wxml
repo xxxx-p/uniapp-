@@ -1,0 +1,1 @@
+<view class="recommend"><view class="header">商品推荐</view><uni-list vue-id="c9853d86-1" list="{{recommends}}" bind:__l="__l"></uni-list></view>

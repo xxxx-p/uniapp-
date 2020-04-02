@@ -1,0 +1,11 @@
+{
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "uni-swiper": "/components/uni-swiper/uni-swiper",
+    "uni-recommend": "/pages/home/childCpns/recommend/recommend",
+    "uni-feature": "/pages/home/childCpns/feature/feature",
+    "uni-tab": "/components/uni-tab/uni-tab",
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-topback": "/components/uni-topback/uni-topback"
+  }
+}

@@ -1,0 +1,85 @@
+<template>
+	<view class='header'>
+	  <view class='avatar'>
+	    <image src="/static/images/profile/avatar.png"/>
+	  </view>
+	  <view class='login-info'>
+	    <view class='login'>登录/注册</view>
+	    <view class='phone'>
+	      <image src="/static/images/profile/phone.png"/>
+	      暂无绑定手机号
+	    </view>
+	  </view>
+	  <view class='arrow'>
+	    <image src="/static/images/common/arrow-right.png"/>
+	  </view>
+	</view>
+
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				
+			}
+		},
+		methods: {
+			
+		}
+	}
+</script>
+
+<style>
+.header {
+  position: relative;
+  display: flex;
+  background: #ff5777;
+  height: 170rpx;
+  padding: 12rpx 30rpx;
+  color: #fff;
+}
+
+.avatar image {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 70rpx;
+  background: #f2f2f2;
+  vertical-align: middle;
+}
+
+.login-info {
+  vertical-align: middle;
+  margin-left: 30rpx;
+}
+
+.login-info .login {
+  font-size: 36rpx;
+  margin-top: 18rpx;
+}
+
+.login-info .phone {
+  font-size: 28rpx;
+  margin-top: 10rpx;
+}
+
+.phone image {
+  width: 36rpx;
+  height: 36rpx;
+  vertical-align: middle;
+  position: relative;
+  bottom: 4rpx;
+}
+
+.arrow {
+  position: absolute;
+  right: 30rpx;
+  margin-top: 30rpx;
+}
+
+.arrow image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+</style>

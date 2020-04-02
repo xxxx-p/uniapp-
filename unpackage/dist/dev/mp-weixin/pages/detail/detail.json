@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "uni-swiper": "/components/uni-swiper/uni-swiper",
+    "uni-base-info": "/pages/detail/childCpns/base-info/base-info",
+    "uni-shop-info": "/pages/detail/childCpns/shop-info/shop-info",
+    "uni-detail-info": "/pages/detail/childCpns/detail-info/detail-info",
+    "uni-param-info": "/pages/detail/childCpns/param-info/param-info",
+    "uni-comment-info": "/pages/detail/childCpns/comment-info/comment-info",
+    "uni-recommend-info": "/pages/detail/childCpns/recommend-info/recommend-info",
+    "uni-goods-action": "/components/uni-goodsAction/uni-goodsAction"
+  }
+}

@@ -1,0 +1,384 @@
+
+.swiper {
+	height: 360rpx;
+}
+.swiper-image {
+	width: 100%;
+}
+
+
+.base-info {
+	padding: 16rpx;
+	margin-top: 10rpx;
+	border-bottom: 12rpx solid #f2f2f2;
+}
+.title {
+	font-size: 32rpx;
+}
+.price-info {
+	margin-top: 8rpx;
+}
+.new-price {
+	color: #ff5777;
+	margin-left: 10rpx;
+}
+.old-price {
+	margin-left: 20rpx;
+	font-size: 28rpx;
+	text-decoration: line-through;
+}
+.discount {
+	background: #ff5777;
+	color: #fff;
+	margin-left: 16rpx;
+	padding: 4rpx 6rpx;
+	font-size: 24rpx;
+	border-radius: 16rpx;
+	position: relative;
+	bottom: 12rpx;
+}
+.sell-info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 26rpx;
+	margin-top: 30rpx;
+	padding-bottom: 16rpx;
+	border-bottom: 1px solid rgba(200, 200, 200, .6);
+}
+.sell-item {
+	/* flex: 1; */
+	text-align: center;
+}
+.service {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	/* flex-wrap: wrap; */
+	font-size: 24rpx;
+	padding: 30rpx 0;
+}
+.service .icon {
+	width: 24rpx;
+	height: 24rpx;
+	position: relative;
+	top: 2rpx;
+	right: 6rpx;
+}
+.service-item {
+	/* flex: 1; */
+	text-align: center;
+}
+
+
+.shop-info {
+	padding: 16rpx 16rpx 50rpx;
+	border-bottom: 12rpx solid #f2f2f2;
+}
+.title-info {
+	margin-top: 30rpx;
+}
+.title-info image {
+	width: 90rpx;
+	height: 90rpx;
+	border-radius: 46rpx;
+	border: 1px solid rgba(200, 200, 200, .6);
+	vertical-align: middle;
+}
+.title-info text {
+	margin-left: 18rpx;
+	position: relative;
+	top: 6rpx;
+}
+.entrance {
+	text-align: center;
+}
+.entrance button::after {
+	border: none;
+}
+.entrance button {
+	padding: 8rpx 100rpx;
+}
+.sell-info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 40rpx 0;
+}
+.sell-item {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: center;
+}
+.count-info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 20rpx 0;
+	border-right: 1px solid rgba(200, 200, 200, .6);
+}
+.count-item {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	text-align: center;
+}
+.count-item .count {
+	font-size: 40rpx;
+}
+.count-item .text {
+	font-size: 28rpx;
+	margin-top: 16rpx;
+}
+.grade-info {
+	font-size: 28rpx;
+	padding: 0 20rpx;
+}
+.grade-row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.grade-row .item {
+	margin-top: 8rpx;
+}
+.grade-row .name {
+	width: 200rpx;
+}
+.grade-row .score {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.grade-row .better {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.good {
+	color: #ff5777;
+}
+.less {
+	color: #5ea732;
+}
+
+
+.detail-info {
+	border-bottom: 12rpx solid #f2f2f2;
+}
+.header {
+	position: relative;
+	padding: 10rpx 30rpx;
+	font-size: 32rpx;
+}
+.header .line {
+	width: 180rpx;
+	height: 1px;
+	background: #666;
+	margin: 30rpx 0;
+	position: relative;
+}
+.header .end {
+	float: right;
+}
+.header .start::before,
+.header .end::after {
+	content: "";
+	position: absolute;
+	width: 10rpx;
+	height: 10rpx;
+	background: #333;
+}
+.header .start::before {
+	bottom: 0;
+}
+.header .end::after {
+	bottom: 0;
+	right: 0;
+}
+.content .title {
+	margin: 50rpx 0 30rpx 30rpx;
+	font-size: 32rpx;
+}
+.content image {
+	width: 100%;
+}
+
+
+.param-info {
+	padding: 40rpx 30rpx;
+	font-size: 30rpx;
+	border-bottom: 12rpx solid #f2f2f2;
+}
+.row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 84rpx;
+	line-height: 84rpx;
+	border-bottom: 1px solid #f2f2f2;
+}
+.size-item {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-right: 42rpx;
+}
+.info-row {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.info-row .key {
+	width: 160rpx;
+}
+.info-row .value {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #f55777;
+}
+
+
+.comment-info {
+	padding: 50rpx 30rpx;
+	border-bottom: 12rpx solid #f2f2f2;
+}
+.header {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding-bottom: 30rpx;
+	font-size: 32rpx;
+	border-bottom: 1px solid #eee;
+}
+.user {
+	margin: 30rpx 0;
+}
+.user image {
+	width: 84rpx;
+	height: 84rpx;
+	vertical-align: middle;
+	border-radius: 42rpx;
+}
+.user text {
+	vertical-align: middle;
+	margin-left: 16rpx;
+	font-size: 32rpx;
+	color: #666;
+}
+.comment {
+	font-size: 28rpx;
+	text-indent: 1.5em;
+	line-height: 1.5;
+}
+.other-info {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 24rpx;
+	margin-top: 20rpx;
+	color: #888;
+}
+.other-info .time {
+	margin-right: 10rpx;
+}
+.picture {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-top: 20rpx;
+}
+.picture image {
+	max-width: 30%;
+}
+
+
+.goods {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	padding: 8rpx;
+}
+.goods-item {
+	/* width: 200rpx; */
+	position: relative;
+	width: 48%;
+	margin-top: 20rpx;
+	text-align: center;
+	color: #333;
+	padding-bottom: 85rpx;
+}
+.image {
+	width: 100%;
+	border-radius: 10rpx;
+}
+.desc-info {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 5rpx;
+}
+.title {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 28rpx;
+}
+.info {
+	font-size: 26rpx;
+}
+.info .price {
+	color: #ff5777;
+	/* padding-right: 10rpx; */
+}
+.info .icon {
+	width: 30rpx;
+	height: 30rpx;
+	padding: 0 6rpx 0 10rpx;
+	position: relative;
+	top: 4rpx;
+}
+.cfav {
+	/* padding-left: 10rpx; */
+	position: relative;
+}
+
+
+.recommend {
+	padding: 10rpx 0 120rpx 0;
+}
+.header {
+	font-size: 40rpx;
+	margin: 10rpx;
+}
+
+
+.detail {
+	height: calc(100% - 120rpx);
+	color: #777;
+}
+.d-swiper swiper {
+	height: 800rpx;
+}
+

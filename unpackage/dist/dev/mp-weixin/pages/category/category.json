@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "uni-cate": "/pages/category/childCpns/menu/menu",
+    "uni-sub": "/pages/category/childCpns/content/content"
+  }
+}

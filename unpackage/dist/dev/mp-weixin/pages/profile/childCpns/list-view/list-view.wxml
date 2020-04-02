@@ -1,0 +1,1 @@
+<view class="list-view"><block wx:for="{{infos}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="list-item"><image src="/static/images/profile/{{item.icon}}"></image><text>{{item.info}}</text></view></block></block></view>
